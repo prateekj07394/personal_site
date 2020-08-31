@@ -1,0 +1,133 @@
+/* universal */
+*{
+    --font-family: 'Nunito', sans-serif;
+    --bg-color : #f9f9f9;
+    --primary-color : #303030;
+    --button-bg : hsl(2, 73%, 65%);
+    --blue : #4c6ef5;
+    box-sizing: border-box;
+}
+html{
+    display: block;
+}
+body{
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color : var(--primary-color);
+    padding : 0;
+    margin : 0;
+    font-size:20px;
+    line-height: 25px;
+    min-height: 80vh;
+}
+main{
+    margin-top:3.5rem;
+}
+a{
+    text-decoration: none;
+    color: var(--button-bg);
+    cursor: pointer;
+}
+
+ul{
+    padding:0;
+}
+li{
+    list-style: none;
+}
+button{
+    
+    cursor: pointer;
+    font-size:18px;
+    border-radius: 8px;
+}
+:focus {
+    outline: none;
+}
+.btn-primary{
+    background-color:var(--button-bg);
+    color:#fff;
+    border:1px solid var(--button-bg);
+    padding: 10px 20px;
+}
+.btn-primary:hover{
+    background: #e0413b;
+    border: 1px solid #e0413b;
+}
+.bg-white{
+    background-color: #fff;
+}
+.container{
+    margin:auto;
+    max-width: 80%;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.n-padding{
+    padding : 9px 15px;
+}
+.header{
+    font-size:32px;
+    line-height: 44px;
+    font-weight: bold;
+    margin: 5px 20px;
+}
+.text-center{
+    text-align:center;
+}
+/* navbar */
+nav{
+    border-bottom : 1px solid #d4d4d4;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    
+    list-style: none;
+    font-weight: bold;
+}
+nav a{
+    margin: 5px 20px;
+    font-size:25px;
+    font-weight: bold;
+}
+nav a:hover{
+    color:#e0413b;
+}
+/* main */
+.profile_pic{
+    max-width: 350px;
+    height: auto;
+    width:auto;
+    border-radius: 16px;
+    max-height: 350px;
+}
+/* footer */
+footer{
+
+}
+
+/* media queries */
+@media (max-width:768px){
+    .col-sm-12{
+        width: 100%;
+    }
+}
+@media (min-width:769px){
+    .col-md-6{
+        width: 50%;
+    }
+}
