@@ -1,0 +1,12 @@
+*{
+    --border-color : #d4d4d4;
+}
+.list_contact li{
+    padding : 2rem ;
+    border-bottom : 1px solid var(--border-color) ;
+}
+.find_me{
+    border-bottom : 1px solid var(--border-color) ;
+}
+
+/*# sourceMappingURL=/src.7ed060e2.css.map */
