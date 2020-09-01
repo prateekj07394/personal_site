@@ -4,7 +4,8 @@
   "description": "Personal site for Prateek Jha",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build public/index.html"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10"
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
   }
 }
