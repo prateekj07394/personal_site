@@ -43,7 +43,7 @@ export const blogs = [
         JS is also being used nowadays in AI/ML (to run models in the browser), AR/VR and is used extensively in building chat-bots .
         <h2>Notes</h2>
         <p>
-        JS has many concepts and applications will be covered in future posts along with other Computer Science / Software Engineering related concepts. 
+        JS has many concepts and applications, which will be covered in future posts along with other Computer Science / Software Engineering related concepts. 
         </p>
         
         <p>
