@@ -16,13 +16,15 @@ const Blogs = () => {
     return (
         <section className="blogs_list_wrapper">
             <header>Blogs</header>
-            {blogs.map((blog) =>{
-                const title = blog.title.replace(/ /g,"-").toLowerCase();
+            {blogs.map((blog) => {
+                const title = blog.title.replace(/ /g, "-").toLowerCase();
                 return (
-                    <Link to={`/blog/${title}`} className="blog_name_wrapper"  key={blog.id}>
-                    <span>{new Date(blog.created_on).toDateString()}</span>
-                    <span>{blog.title}</span>
-                </Link>
+                    <div key={blog.id} className="blog_name_wrapper">
+                        <Link to={`/blog/${title}`}   >
+                            <span>{new Date(blog.created_on).toDateString()}</span>
+                            <span>{blog.title}</span>
+                        </Link>
+                    </div>
                 )
             }
             )}

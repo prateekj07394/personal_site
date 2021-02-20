@@ -15,6 +15,10 @@
 .blog_name_wrapper span{
     margin: 0px 20px;
 }
+.blog_name_wrapper a{
+    display: flex;
+    flex-wrap: wrap;
+}
 .blog_name_wrapper:hover{
     background-color: #f1f4f8;
     cursor: pointer;
