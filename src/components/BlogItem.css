@@ -1,0 +1,8 @@
+.blog_body{
+    padding: 1rem;
+    font-size: 1.125rem;
+}
+.blog_body h2{
+    padding-bottom: .5rem;
+    border-bottom: 4px solid #f1f4f8;
+}

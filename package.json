@@ -4,7 +4,7 @@
   "description": "Personal site for Prateek Jha",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel public/index.html",
     "build": "parcel build public/index.html"
   },
   "repository": {

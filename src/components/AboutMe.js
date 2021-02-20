@@ -4,14 +4,12 @@ const AboutMe = () => {
     return (
         <section className="flex n-padding justify-content-between">
                 <article>
-                    
-
                     <p className="n-padding">
-                        I am a software engineer currently working at <a target="_blank" href="https://www.tredence.com/">Tredence Analytics</a> , India as a <a  target="_blank" href="https://reactjs.org/">React</a> developer.
+                        I am a software engineer currently working at <a target="_blank" href="https://www.walmart.com/">Walmart Global Tech India</a>.
                         I am interested in development, design and more. 
                     </p>
                     <p className="n-padding">
-                        I have recently started to write about the things I know / want to know. You will find my blogs on this site soon.
+                        I also like to read books and write in my free time.
                     </p>
                      {/* <p className="n-padding">
                         You can <a href="/">read my blogs</a> or <a href="/">know more about me</a>.

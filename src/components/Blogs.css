@@ -1,0 +1,21 @@
+.blogs_list_wrapper{
+    padding: 1rem;
+}
+
+.blogs_list_wrapper header{
+    border-bottom: 1px solid #f1f4f8 ;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+    border-bottom-width: 4px;
+    padding-bottom: .5rem;
+}
+.blog_name_wrapper{
+    padding: .75rem 1rem;
+}
+.blog_name_wrapper span{
+    margin: 0px 20px;
+}
+.blog_name_wrapper:hover{
+    background-color: #f1f4f8;
+    cursor: pointer;
+}
