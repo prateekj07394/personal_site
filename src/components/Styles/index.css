@@ -1,0 +1,37 @@
+html {
+    color: var(--font-color);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    line-height: 1.2;
+  }
+.container{
+    padding: 15px !important;
+}
+.main{
+    padding: .75rem 1.25rem;
+}
+.fun-fact{
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}

@@ -1,6 +1,4 @@
-.blogs_list_wrapper{
-    padding: 1rem;
-}
+@import "./variables.css";
 
 .blogs_list_wrapper header{
     border-bottom: 1px solid #f1f4f8 ;
@@ -8,6 +6,7 @@
     margin: 0 0 1rem;
     border-bottom-width: 4px;
     padding-bottom: .5rem;
+    font-weight: 500;
 }
 .blog_name_wrapper{
     padding: .75rem 1rem;
@@ -22,4 +21,9 @@
 .blog_name_wrapper:hover{
     background-color: #f1f4f8;
     cursor: pointer;
+}
+.blog_body h4 {
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-bottom: 2px solid var(--light-background)    ;
 }

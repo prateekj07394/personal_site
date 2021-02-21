@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { blogs, urlMappings } from '../Blogs-Data/data';
-import './BlogItem.css';
+import './Styles/BlogItem.css';
 
 const BlogItem = (props) => {
     const [blogDetails, setBlogDetails] = useState({});

@@ -1,0 +1,18 @@
+:root{
+    --font-color: #495057;
+    --heading-color: #343a40;
+    --background: #fff;
+    --dark-font-color: #1b1d25;
+    --medium-font-color: #60656c;
+    --light-font-color: #858b93;
+    --light-background: #f1f4f8;
+    --light-background-hover: #e1e6ed;
+    --border: #d6d9de;
+    --link-color: #5183f5;
+    --link-color-darker: #364fc7;
+    --navbar-color: #1b1d25;
+    --blockquote: #edf2ff;
+    --transparent-text: rgba(0,0,0,0.7);
+    --transparent-bg: rgba(0,0,0,0.05);
+    --light-transparent-bg: hsla(0,0%,100%,0.1);
+}

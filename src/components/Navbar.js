@@ -1,20 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Styles/Navbar.css';
 
-const Navbar = () => {
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink
+} from 'reactstrap';
+
+const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
     return (
-        <nav className="flex justify-content-between n-padding align-items-center">
-            <div ><Link to="/">Prateek Jha</Link></div>
-            <div>
-                <ul>
-                    <li><Link to="/blogs">Blogs</Link></li>
-                    <li><Link to="/about-me">About Me</Link></li>
-                    <li><Link to="/contact-me">Contact Me</Link></li>
-                </ul>
-            </div>
-        </nav>
+        <div className="container">
+            <Navbar color="faded" light expand="md" className="navbar">
+                <NavbarBrand className="brand" href="/">Prateek Jha</NavbarBrand>
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="mr-auto" navbar>
+                        <NavItem>
+                            <NavLink href="/blogs/">Blogs</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/about-me/">About Me</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/contact-me/">Contact Me</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div>
     )
 
 }
 
-export default Navbar;
+export default Header;
