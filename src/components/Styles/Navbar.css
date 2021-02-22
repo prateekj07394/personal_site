@@ -9,12 +9,12 @@
     margin-right: 3rem;
     border: none;
     background: transparent!important;
-    color: var(--dark-font-color) !important;
+    color: #fff !important;
     font-weight: 500;
 }
 .navbar a{
     padding: .75rem 1.25rem;
     margin: 0 .25rem;
     font-weight: 400;
-    color: var(--font-color);
+    color: #fff;
 }
