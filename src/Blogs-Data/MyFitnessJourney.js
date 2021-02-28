@@ -1,4 +1,8 @@
 import React from 'react';
+import hritikRoshanAbs from '../assets/Hrithik-Roshan-abs.webp';
+import nitk from '../assets/NITK.jpeg';
+import gym from '../assets/Gym.jpg';
+import yoga from '../assets/Yoga.jpg';
 
 export const MyFitnessJourney = () => {
     return (
@@ -21,10 +25,13 @@ export const MyFitnessJourney = () => {
             <p>
                 However, I was pushed into the world of work-out/exercise by
                 watching bollywood movies like Krrish, Ghajini and old Salman Khan movies (yeah, yeah, in all honesty, I used to love his old movies).
-                Talk about setting unrealistic expectations for kids.
+                
+                </p>
+                <p className="image_wrapper row">
+                    <img src={hritikRoshanAbs} className="col-md-6 col-sm-12" alt="Hritik Roshan abs"/>
                 </p>
             <p>
-                Anyway, what started as trying to be like bollywood stars,
+                Talk about setting unrealistic expectations for kids. Anyway, what started as trying to be like bollywood stars,
                 started to make me feel better and give some routine/structure  to my life.
                 </p>
             <p>
@@ -33,7 +40,13 @@ export const MyFitnessJourney = () => {
             <p>
             <blockquote>2013 - 2016</blockquote>
                 I studied at NIT Karnataka, and it is a beautiful place to study at. We had a beach nearby,
-                a huge swimming pool, enormous grounds/courts and numerous other facilities. I didn't join the gym initially,
+                a huge swimming pool, enormous grounds/courts and numerous other facilities. 
+                </p>
+                <p className="image_wrapper  row">
+                    <img src={nitk} className="col-md-6 col-sm-12" alt="NITK pics"/>
+                </p>
+                <p>
+                I didn't join the gym initially,
                 because my father had warned me saying, it damages your body and will affect you when you are old, do yoga instead etc.
                 So I played a lot and worked out intensely using videos on YouTube. I also wanted to learn how to swim properly (no success even now, sigh).
                 </p>
@@ -50,6 +63,9 @@ export const MyFitnessJourney = () => {
             <p>
             <blockquote>2016-2017 </blockquote>
                 It was around this time that I decided I should focus less on burning calories (as I already had a lean frame and was weak) and more on building strength and muscle. I had never felt strong before, and I wanted to know what it feels like to be strong, have a huge physique with bulging arms. But as I was wary of the harmful effects of lifting heavy weights the wrong way, so I joined a classmate of mine, who had been working out since many years. I told him I need to get strong and he became my sort of trainer.
+                </p>
+                <p className="image_wrapper  row">
+                    <img src={gym} className="col-md-6 col-sm-12" alt="Gym pics"/>
                 </p>
             <p>
                 We used to go to the gym daily except on Saturdays, and after a brief warmup used to hit a different body part every other day. The, we used to do few core exercises, followed with some brief intense cardio to finish off. In order to ensure I don't become weak again, I used to eat 5 eggs everyday and ate food in large quantities. While my friends used to crib saying I don't like the canteen food, I would often stay back and eat a lot of daal and chicken.
@@ -81,7 +97,13 @@ export const MyFitnessJourney = () => {
             <blockquote>2018 - Present </blockquote>
                 A friend of mine had been practising yoga for a long time and insisted I give it a try.
                     I joined <strong>MindFit</strong> and went every morning for a year. I had a lot of strength, but wasn't
-                    flexible. As time went on, I could feel my body getting flexible and I felt much more clam. However,
+                    flexible. 
+                    </p>
+                    <p className="image_wrapper  row">
+                    <img src={yoga} className="col-md-6 col-sm-12" alt="Yoga pics"/>
+                </p>
+                    <p>
+                    As time went on, I could feel my body getting flexible and I felt much more clam. However,
                     the best thing about yoga was how it made me feel the rest of the day.
                     The calm after a hatha yoga class can't be matched and my body felt strong, flexible and relaxed at the same time.
                     I also gave up non-veg food, though I wasn't told to give it up, I just didn't like it.
