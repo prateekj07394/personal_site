@@ -32,7 +32,7 @@ export const MyFitnessJourney = () => {
                 </p>
             <p>
                 Talk about setting unrealistic expectations for kids. Anyway, what started as trying to be like bollywood stars,
-                started to make me feel better and give some routine/structure  to my life.
+                started to make me feel better and give a routine/structure  to my life.
                 </p>
             <p>
                 <strong>College life</strong>
@@ -84,7 +84,7 @@ export const MyFitnessJourney = () => {
                 Plus, I started accumulating fat around my waist.
                 I didn't pay much attention to it initially, thinking I have always been the skinny one, it must be a phase.
                 Turns out this phase lasted for months (read - more than a year) despite me trying to work out every day. Also, beer makes you fat (learnt that by experience).
-                Combine that with my sedentaty job and slow metabolism, losing fat was a difficult task now.
+                Combine that with my sedentary job and slow metabolism, losing fat was a difficult task now.
                 I ran/worked out regularly, but did not discontinue those unhealthy habits. Finally, it took a pandemic for me to stop these habits.
                 </p>
             <p className="fun-fact">
