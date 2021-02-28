@@ -26,12 +26,12 @@ const Header = () => {
                         <NavItem>
                             <NavLink href="/blogs/">Blogs</NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink href="/about-me/">About Me</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/contact-me/">Contact Me</NavLink>
-                        </NavItem>
+                        </NavItem> */}
                     </Nav>
                 </Collapse>
             </Navbar>
