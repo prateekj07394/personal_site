@@ -68,7 +68,7 @@ export const MyFitnessJourney = () => {
                     <img src={gym} className="col-md-6 col-sm-12" alt="Gym pics"/>
                 </p>
             <p>
-                We used to go to the gym daily except on Saturdays, and after a brief warmup used to hit a different body part every other day. The, we used to do few core exercises, followed with some brief intense cardio to finish off. In order to ensure I don't become weak again, I used to eat 5 eggs everyday and ate food in large quantities. While my friends used to crib saying I don't like the canteen food, I would often stay back and eat a lot of daal and chicken.
+                We used to go to the gym daily except on Saturdays, and after a brief warmup used to hit a different body part every other day. Then, we used to do few core exercises, followed with some brief intense cardio to finish off. In order to ensure I don't become weak again, I used to eat 5 eggs everyday and ate food in large quantities. While my friends used to crib saying I don't like the canteen food, I would often stay back and eat a lot of daal and chicken.
                 </p>
             <p>
                 I liked the benefits of lifting weights. Not only did I look strong, I also felt good and confident. Prior to this, I had always been inferior to others strength-wise, but now, I could see the nerves bulging and the muscles taking shape.
@@ -79,7 +79,7 @@ export const MyFitnessJourney = () => {
             <p>
             <blockquote>2017 - 2020</blockquote>
                 Once I graduated from college, my biggest challenge was maintaining a good diet.
-                Evening snacks meant either chat or samosa every day.
+                Evening snacks meant either chaat or samosa every day.
                 I love my samosas all right, but I can't eat them every single day.
                 Plus, I started accumulating fat around my waist.
                 I didn't pay much attention to it initially, thinking I have always been the skinny one, it must be a phase.
@@ -103,10 +103,10 @@ export const MyFitnessJourney = () => {
                     <img src={yoga} className="col-md-6 col-sm-12" alt="Yoga pics"/>
                 </p>
                     <p>
-                    As time went on, I could feel my body getting flexible and I felt much more clam. However,
+                    As time went on, I could feel my body getting flexible and I felt much more calm. However,
                     the best thing about yoga was how it made me feel the rest of the day.
                     The calm after a hatha yoga class can't be matched and my body felt strong, flexible and relaxed at the same time.
-                    I also gave up non-veg food, though I wasn't told to give it up, I just didn't like it.
+                    I also gave up non-veg food (I wasn't told to give it up, I just didn't like it).
                     Yoga has played an important part in my life and I still practise it every other day.
                 </p>
             <p>
@@ -121,8 +121,8 @@ export const MyFitnessJourney = () => {
                     focussing on strength and cardio as well.
                 </p>
             <p>
-                After months of using the app, I got bored from it. I wanted a mix of activities, also, I felt
-                too tired after the workouts. I devised my own plan then - I would alternate between yoga and workouts every other day.
+                However, after months of using the app, I got bored from it. I wanted a mix of activities and was feeling
+                drained after the workouts. Eventually, I devised my own plan - I would alternate between yoga and workouts every other day.
                 And rest only on saturdays as body weight exercises don't cause much tear. This plan has been going good for me
                 and I have been continuing it for months now. I have also started to walk everyday before my workouts past few weeks.
                 I think it is a good way to start your warmups and also stimulates your mind early morning.
@@ -133,7 +133,7 @@ export const MyFitnessJourney = () => {
             <p>
                 I am no fitness expert, heck, I am still struggling with my routines and nutrition (samosas are love).
                 But I want to enjoy life as well, this does not mean I eat junk food every day, but once a week is a moderate amount as long as my weekly calories are in check.
-                I also plan to include weights into my workouts again and will write about the progress/decline in my future posts.
+                I also plan to include weights into my workouts again and will write about the progress in my future posts.
                 </p>
         </>
     )
