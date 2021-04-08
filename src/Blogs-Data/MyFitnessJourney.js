@@ -27,9 +27,6 @@ export const MyFitnessJourney = () => {
                 watching bollywood movies like Krrish, Ghajini and old Salman Khan movies (yeah, yeah, in all honesty, I used to love his old movies).
                 
                 </p>
-                <p className="image_wrapper row">
-                    <img src={hritikRoshanAbs} className="col-md-6 col-sm-12" alt="Hritik Roshan abs"/>
-                </p>
             <p>
                 Talk about setting unrealistic expectations for kids. Anyway, what started as trying to be like bollywood stars,
                 started to make me feel better and give a routine/structure  to my life.
@@ -41,9 +38,6 @@ export const MyFitnessJourney = () => {
             <blockquote>2013 - 2016</blockquote>
                 I studied at NIT Karnataka, and it is a beautiful place to study at. We had a beach nearby,
                 a huge swimming pool, enormous grounds/courts and numerous other facilities. 
-                </p>
-                <p className="image_wrapper  row">
-                    <img src={nitk} className="col-md-6 col-sm-12" alt="NITK pics"/>
                 </p>
                 <p>
                 I didn't join the gym initially,
@@ -63,9 +57,6 @@ export const MyFitnessJourney = () => {
             <p>
             <blockquote>2016-2017 </blockquote>
                 It was around this time that I decided I should focus less on burning calories (as I already had a lean frame and was weak) and more on building strength and muscle. I had never felt strong before, and I wanted to know what it feels like to be strong, have a huge physique with bulging arms. But as I was wary of the harmful effects of lifting heavy weights the wrong way, so I joined a classmate of mine, who had been working out since many years. I told him I need to get strong and he became my sort of trainer.
-                </p>
-                <p className="image_wrapper  row">
-                    <img src={gym} className="col-md-6 col-sm-12" alt="Gym pics"/>
                 </p>
             <p>
                 We used to go to the gym daily except on Saturdays, and after a brief warmup used to hit a different body part every other day. Then, we used to do few core exercises, followed with some brief intense cardio to finish off. In order to ensure I don't become weak again, I used to eat 5 eggs everyday and ate food in large quantities. While my friends used to crib saying I don't like the canteen food, I would often stay back and eat a lot of daal and chicken.
@@ -99,9 +90,6 @@ export const MyFitnessJourney = () => {
                     I joined <strong>MindFit</strong> and went every morning for a year. I had a lot of strength, but wasn't
                     flexible. 
                     </p>
-                    <p className="image_wrapper  row">
-                    <img src={yoga} className="col-md-6 col-sm-12" alt="Yoga pics"/>
-                </p>
                     <p>
                     As time went on, I could feel my body getting flexible and I felt much more calm. However,
                     the best thing about yoga was how it made me feel the rest of the day.

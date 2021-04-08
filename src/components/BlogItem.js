@@ -15,7 +15,7 @@ const BlogItem = (props) => {
         } else {
             setBlogDetails({
                 title: "Error 404",
-                body: "<p>Could not find the blog you are searching for</p>"
+                body: "Oops! Could not find the blog you are searching for"
             })
         }
     }, [])

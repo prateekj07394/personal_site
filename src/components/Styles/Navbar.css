@@ -1,11 +1,15 @@
 @import "./variables.css";
 
 .navbar{
+    color: rgb(236, 235, 235);
+    background-color: rgb(39, 38, 38);
+    font-family: 'Cedarville Cursive', cursive;
     border-bottom: 1px solid #f4f4f4;
+    font-size: 30px;
 }
 
 .navbar .brand{
-    font-size: 1.3rem;
+    font-size: 30px;
     margin-right: 3rem;
     border: none;
     background: transparent!important;
