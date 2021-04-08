@@ -21,9 +21,11 @@ const Home = () => {
                             loop: true,
                         }}
                     />
-                    <div>I am a software developer at Walmart Global Tech. I like to design and build web applications
-                    Breezing my way through life one push up at a time
-                    I write sometimes too
+                    <div>I am a software developer at Walmart Global Tech. I like to design and build web applications.
+                    Breezing my way through life one push up at a time.
+                </div>
+                    <div>
+                        I write sometimes too.
                 </div>
                 </div>
 

@@ -1,6 +1,11 @@
 .intro{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 1.7;
+    letter-spacing: 2px;
+}
+.intro h2{
+    font-size: 3rem;
+    margin: 2rem 0;
 }
 .intro div{
     margin: 1rem 0;
